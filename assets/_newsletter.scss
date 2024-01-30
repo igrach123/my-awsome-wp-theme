@@ -1,0 +1,34 @@
+#newsletter {
+  background-image: url(../images/watercolor.jpg);
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-size: fill; /* Resize the background image to cover the entire container */
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .textbox {
+    margin-right: 15px;
+  }
+  h2 {
+    text-align: center;
+    color: $orange;
+    font-weight: bolder;
+    margin-left: 10px;
+    padding-bottom: 25px;
+  }
+  h4 {
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 28px;
+    text-align: left;
+  }
+  span {
+    .fa {
+      vertical-align: middle;
+    }
+  }
+  .newsletter-images {
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,20 @@
+#text-slider {
+  max-height: 650px !important;
+  small {
+    color: $gray-500;
+  }
+  .carousel-item {
+    background-image: url(../images/welcome-to-overlay.png);
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    padding-top: 200px;
+    padding-bottom: 200px;
+    .carousel-caption {
+      @include lg {
+        padding-bottom: 4rem;
+      }
+    }
+  }
+}

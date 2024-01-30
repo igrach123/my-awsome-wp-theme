@@ -1,0 +1,48 @@
+#footer {
+  padding-top: 80px;
+  background-color: $orange;
+
+  .footer-title {
+    color: $text-main;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  .mail a {
+    color: $text-main;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  .mail a:hover {
+    color: $text-white;
+  }
+  .b-data {
+    color: $text-main;
+    font-weight: 500;
+  }
+  .p-data {
+    font-size: 1.2rem;
+    color: $text-main;
+    font-weight: 800;
+  }
+  .help-line {
+    margin-top: 10px;
+    color: $text-white;
+    font-size: 1.6rem;
+    font-weight: 800;
+  }
+  .social a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: $text-main;
+    margin-left: 15px;
+  }
+  .social a:hover {
+    text-decoration: underline;
+  }
+  .copy-text {
+    margin-top: 20px;
+    font-weight: 400;
+  }
+}

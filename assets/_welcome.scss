@@ -1,0 +1,18 @@
+#welcome {
+  /*  background-image: url(../images/watercolor.jpg); */
+  background-image: url(../images/welcome-to-overlay.png);
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Center the image */
+  background-size: fill; /* Resize the background image to cover the entire container */
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .wecare {
+    color: $white;
+    font-weight: 600;
+  }
+  .subtext {
+    color: $gray-500;
+  }
+}

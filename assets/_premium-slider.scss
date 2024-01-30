@@ -1,0 +1,30 @@
+#premium-slider {
+  max-height: 650px !important;
+  small {
+    color: $gray-500;
+  }
+  .carousel-item {
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    padding-top: 200px;
+    padding-bottom: 200px;
+    @include lg {
+      padding-top: 300px;
+      padding-bottom: 300px;
+    }
+
+    .carousel-caption {
+      @include lg {
+        padding-bottom: 4rem;
+      }
+    }
+  }
+  .slide-image-1 {
+    background-image: url(../images/slider-1.jpg);
+  }
+  .slide-image-2 {
+    background-image: url(../images/slider-2.jpg);
+  }
+}
